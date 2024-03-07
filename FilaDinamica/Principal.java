@@ -18,7 +18,5 @@ public class Principal{
         filaD.imprimirTodos();
 
         System.out.println(filaD.isEmpty());
-
-        filaD.
     }
 }
