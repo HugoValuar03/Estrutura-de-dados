@@ -1,17 +1,17 @@
 package FilaDinamica;
 
-public class FilaDinamica {
+public class FilaDinamica<T> {
  
-    private No inicio;
-    private No fim;
+    private No<T> inicio;
+    private No<T> fim;
 
     public FilaDinamica(){
         this.inicio = null;
         this.fim = null;
     }
 
-    public void adicionar(int elemento){
-        No noAux = new No(elemento);
+    public void adicionar(T elemento){
+        No<T> noAux = new No<T>(elemento);
         if(isEmpty()){
             inicio = noAux;
             fim = noAux;
@@ -22,9 +22,9 @@ public class FilaDinamica {
 
     }
 
-    public int retirar(){
+    public T retirar(){
         if(!isEmpty()){
-            int elementoRemovido = inicio.getElemento();
+            T elementoRemovido = inicio.getElemento();
             inicio = inicio.getProximo();
 
             if(inicio == null){
@@ -39,7 +39,7 @@ public class FilaDinamica {
 
     public int tamanho(){
         int tamanho = 0;
-        No atual = inicio;
+        No<T> atual = inicio;
         while (atual != null) {
             tamanho++;
             atual = atual.getProximo();
@@ -56,7 +56,7 @@ public class FilaDinamica {
     }
 
     public void imprimirTodos(){
-        No atual = inicio;
+        No<T> atual = inicio;
         System.out.println("Impressão dos elementos da pilha:");
         while(atual != null){
             System.out.println(atual.getElemento());
