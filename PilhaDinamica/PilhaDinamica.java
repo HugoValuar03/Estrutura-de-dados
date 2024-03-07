@@ -46,21 +46,3 @@ public class PilhaDinamica {
         }
     }
 }
-
-/*
-1 - Implementar uma Pilha Dinâmica, com os seguintes Métodos:
-
-Inserir dado na Pilha --
-Remove dado na Pilha --
-Retorna o Tamanho da Pilha --
-Retorna se a Pilha está vazia -- 
-Imprimir os dados da Pilha
-
-2 - Implementar uma Fila Dinâmica, com os seguintes Métodos:
-
-Inserir dado na Fila
-Remove dado na Fila
-Retorna o Tamanho da Fila
-Retorna se a Fila está vazia
-Imprimir os dados da Fila
- */
