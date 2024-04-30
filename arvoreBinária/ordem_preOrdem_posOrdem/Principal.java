@@ -1,4 +1,4 @@
-package arvoreBinária;
+package arvoreBinária.ordem_preOrdem_posOrdem;
 
 public class Principal {
     public static void main(String[] args) {

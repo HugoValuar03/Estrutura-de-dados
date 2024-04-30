@@ -1,4 +1,4 @@
-package arvoreBinária;
+package arvoreBinária.ordem_preOrdem_posOrdem;
 
 public class No {
     int chave; // Valor do nó

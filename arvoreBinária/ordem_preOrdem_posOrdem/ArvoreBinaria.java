@@ -1,4 +1,4 @@
-package arvoreBinária;
+package arvoreBinária.ordem_preOrdem_posOrdem;
 
 public class ArvoreBinaria {
     No raiz; // Referência para o nó raiz da árvore
